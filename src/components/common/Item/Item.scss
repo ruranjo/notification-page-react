@@ -1,0 +1,69 @@
+@use '../../../styles/variables';
+
+.item-notification{
+    display: flex;
+    
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    img{
+
+        width: 3rem;
+        height: 3rem;
+    };
+}
+
+.content-text{
+    margin-left: .5rem;
+    
+    p{
+        
+        color: variables.$neutral-grayish-blue;
+        span{
+            font-weight: 800;
+            color: variables.$neutral-very-dark-blue;
+            padding-right: 0.5rem;
+        }
+        .event{
+            padding-left: 0.5rem;
+            font-weight: 800;
+            color: variables.$primary-blue;
+            padding-right: 0.5rem;
+        }
+    
+        .event-react{
+            padding-left: 0.5rem;
+            font-weight: 800;
+            color: gray;
+            padding-right: 0.5rem;
+        }
+    }
+    
+
+    .time{
+        color: variables.$neutral-grayish-blue;
+        padding-right: 0.5rem;
+    }
+}
+
+.content-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-message{
+    p{
+        padding: 1rem;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    
+}
+
+.read{
+    display: inline;
+    color: variables.$primary-red;
+}
